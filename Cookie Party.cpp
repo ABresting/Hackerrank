@@ -7,7 +7,7 @@ int main(){
 	long long int m,n;
 	cin>> n >> m;
 	
-	if(n%m==0)
+	if(m%n==0)
 		cout<<"0\n";
 	else if(n>m)
 		cout<<n-m<<endl;
